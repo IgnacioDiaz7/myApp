@@ -4,18 +4,10 @@ Azul 1: #009DCF
 Azul 2: #86BEDA
 */
 
-// Color Variables
-$verde-jade: #00A86B;
-$azul-1: #009DCF;
-$azul-2: #86BEDA;
-
 ion-content {
-
-    --background: url('/assets/img/ImagenLogin.jpg') no-repeat center center fixed;
-    --background-size: cover;
-    --background-color: $azul-2;
-    --justify-content: center;
-    --align-items: center;
+    --background-color: black;
+   
+    
 }
 
 ion-card {
@@ -32,30 +24,30 @@ ion-card {
 
 ion-card-header {
     text-align: center;
-    color: $verde-jade;
+    color: #00A86B;
 }
 
 ion-button {
     &.button-primary {
-        background-color: $verde-jade;
+        background-color: #00A86B;
         color: #fff;
     }
 
     &.button-secondary {
-        background-color: $azul-1;
+        background-color: #86BEDA;
         color: #fff;
-        border: 2px solid $azul-1;
+        border: 2px solid #86BEDA;
     }
 
     &.button-secondary[fill="outline"] {
         background-color: transparent;
-        color: $azul-1;
-        border: 2px solid $azul-1;
+        color: #86BEDA;
+        border: 2px solid #86BEDA;
     }
 }
 
 ion-text a {
-    color: $verde-jade;
+    color: #00A86B;
     text-decoration: none;
 
     &:hover {
